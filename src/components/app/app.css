@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Podkova-Regular'), url('../../fonts/Podkova-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Podkova';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Podkova-Medium'), url('../../fonts/Podkova-Medium.woff2') format('woff2');
+}
+
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+
+    font-family: "Podkova", serif;
+    font-weight: normal;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    color: #333333;
+}
+h1 {
+    margin: 0;
+
+    font-size: 30px;
+}
+h2 {
+    margin: 0;
+
+    font-size: 24px;
+}
+h3 {
+    margin: 0;
+
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.wrapper {
+    max-width: 800px;
+    margin: auto;
+}
+@media (min-width: 0px) {
+    .wrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media (min-width: 840px) {
+    .wrapper {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.prompt {
+    display: -ms-flexbox;
+    display: flex;
+    color: #E5261E;
+}

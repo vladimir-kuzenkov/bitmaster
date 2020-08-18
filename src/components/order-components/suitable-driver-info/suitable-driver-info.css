@@ -1,0 +1,96 @@
+
+.suitable-driver {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    max-width: 320px;
+    margin-top: 25px;
+    padding: 20px 0;
+
+    border: 1px solid black;
+    border-radius: 15px;
+}
+@media (max-width: 650px) {
+    .suitable-driver {
+        margin-top: 3.846vw;
+    }
+}
+
+.suitable-driver__container {
+    box-sizing: border-box;
+    display: flex;
+    align-items: stretch;
+
+    width: 280px;
+    margin-top: 20px;
+    padding: 0 10px;
+}
+
+.suitable-driver__icon {
+    flex-shrink: 0;
+
+    width: 60px;
+
+    background: url("../../../images/car-icon.png") 50% 50% no-repeat;
+    opacity: 0.3;
+}
+
+.suitable-driver__info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25px;
+}
+
+.suitable-driver__car-model {
+    margin-bottom: 10px;
+
+    word-break: break-all;
+}
+
+.suitable-driver__car-color {
+    margin-bottom: 10px;
+
+    font-size: 16px;
+    word-break: break-all;
+}
+
+.suitable-driver__car-number {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 25px;
+
+    padding: 7px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-bottom: 2px solid black;
+}
+
+.suitable-driver .spinner {
+    height: 132px;
+}
+.suitable-driver .ldio-5w510lvs4uf div {
+    position: absolute;
+    animation: ldio-5w510lvs4uf 1s linear infinite;
+    width: 92px;
+    height: 92px;
+    top: 4px;
+    left: 4px;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 0 #e15b64;
+    transform-origin: 46px 47px;
+}
+.suitable-driver .loadingio-spinner-eclipse-e96iax4cnig {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+}
+

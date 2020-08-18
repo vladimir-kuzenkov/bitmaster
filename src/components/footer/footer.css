@@ -1,0 +1,24 @@
+
+footer {
+    width: 100%;
+    margin-top: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #F4F5F9;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__logo {
+    height: 30px;
+
+    transition: opacity 0.3s;
+}
+
+.footer__logo:hover {
+    opacity: 0.8;
+}

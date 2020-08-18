@@ -1,0 +1,27 @@
+
+header {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    /*box-shadow: 0 1px 3px rgba(0,0,0,0.10);*/
+    background-color: #F4F5F9;
+}
+.header__container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header__logo {
+    width: 8vw;
+    max-width: 116px;
+    min-width: 65px;
+
+    transition: opacity 0.3s;
+}
+.header__logo:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,123 @@
+
+.list-of-drivers__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    width: 100%;
+    max-width: 320px;
+    margin-top: 25px;
+    margin-left: 50px;
+
+    border: 1px solid black;
+    border-radius: 15px;
+}
+@media (max-width: 650px) {
+    .list-of-drivers__wrapper {
+        height: 170px;
+        margin-top: 3.255vw;
+        margin-left: 0;
+    }
+}
+
+
+.list-of-drivers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+
+    width: 100%;
+    max-width: 320px;
+
+    border-radius: 15px;
+}
+.list-of-drivers li {
+    border-bottom: 1px solid grey;
+}
+.list-of-drivers li:last-child {
+    border-bottom: none;
+}
+
+.list-of-drivers__text {
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align: center;
+}
+
+
+.driver {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+
+    padding: 5px;
+}
+
+.driver__icon {
+    flex-shrink: 0;
+
+    width: 30px;
+    height: 30px;
+
+    background: url("../../../images/car-icon.png") center center no-repeat;
+    background-size: 65%;
+    opacity: 0.3;
+}
+
+.driver__info {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+}
+
+.driver__car-model {
+    margin-bottom: 5px;
+
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.driver__car-color {
+
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.driver__distance {
+    margin-left: auto;
+    margin-right: 20px;
+
+    font-size: 16px;
+}
+
+
+@keyframes ldio-5w510lvs4uf2 {
+    0% { transform: rotate(360deg) }
+    50% { transform: rotate(180deg) }
+    100% { transform: rotate(0deg) }
+}
+
+.list-of-drivers__wrapper .spinner {
+    height: 132px;
+}
+.list-of-drivers__wrapper .ldio-5w510lvs4uf div {
+    position: absolute;
+    animation: ldio-5w510lvs4uf2 1s linear infinite;
+    width: 92px;
+    height: 92px;
+    top: 4px;
+    left: 4px;
+    border-radius: 50%;
+    box-shadow: 0 2px 0 0 #e15b64;
+    transform-origin: 46px 47px;
+}
+.list-of-drivers__wrapper .loadingio-spinner-eclipse-e96iax4cnig {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    overflow: hidden;
+    background: #ffffff;
+}
